@@ -40,6 +40,11 @@
         font-family: 'Lato';
         font: size 100;;
       }
+      .table {
+        font-family: 'Lato';
+        color:gold;
+        background-color: maroon;
+      }
 
     </style>
     <title>USC Trojans</title>
@@ -51,7 +56,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav">
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
@@ -64,16 +69,57 @@
       </nav>
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">The Home of USC Football!</h1>
+          <h1 class="display-4">Home of the Trojans!</h1>
         </div>
       </div>
   
     <body>
-      <div class="container-lg"></div>
-            <div class="col-sm-6">
-        <h1>USC Trojans</h1>
-        <h2>Football</h2>
-        
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>USC Football</h1> 
+          </div>
+          <div class="col">
+            <h1>2020 Schedule</h1>
+          </div>
+        </div>
+        <table class="table">
+          <thead class="thead">
+            <tr>
+              <th scope="col">Week</th>
+              <th scope="col">Date</th>
+              <th scope="col">Opponent</th>
+              <th scope="col">Location</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>9/5</td>
+              <td>Alabama</td>
+              <td>AT&T Stadium</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>9/12</td>
+              <td>New Mexico</td>
+              <td>LA Coliseum</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>9/19</td>
+              <td>Stanford</td>
+              <td>Stanford Stadium</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>9/26</td>
+              <td>Arizona State
+              </td>
+              <td>La Coliseum</td>
+            </tr>
+          </tbody>
+        </table>
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
